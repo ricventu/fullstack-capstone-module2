@@ -68,3 +68,19 @@ Rails.application.config.assets.precompile += %w( spa-demo.js spa-demo.css )
 <%= stylesheet_link_tag    "spa-demo", :media => "all" %>
 <%= javascript_include_tag "spa-demo" %>
 ```
+
+
+## External Web Client Packaging with Gulp
+
+* Node Packge Manager
+  * Part of node.js
+  * Manages low-level packages like Bower, Gulp and Gulp tasks
+* Bower Package Manager
+  * Manages higher-level packages like Angular, Bootstrap, etc.
+* Gulp Task
+  * Can be modeled to do just about anything
+  * No conventions, roll your own
+
+### GULP
+
+
